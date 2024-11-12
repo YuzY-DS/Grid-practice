@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(127, 127, 205);
+ }
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 5px; 
+}
+.box{
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.head{
+    width: auto;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px auto 20px;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+.box1{
+    /* border: 1px solid green; */
+    background-color: rgb(174, 173, 173);
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+}
+ .box2{
+    /* border: 1px solid green; */
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+.threeDots{
+    /* border: 1px solid green; */
+    height:auto;
+    align-self: flex-start;
+}
+.Name{
+    /* border: 1px solid rgb(242, 102, 64); */
+    font-size: 15px;
+    color: blue;
+}
+.Date{
+    /* border: 1px solid rgb(232, 109, 32); */
+    font-size: 10px;
+}
+.caption{
+    height: auto;
+    font-size: 12px;
+    letter-spacing: 0.5;
+    line-height: 0.5;
+ }
+.img{
+    width: auto;
+    height:450px;
+    flex-grow:1;
+    background-color: rgb(81, 127, 207);
+    border-radius:0;
+}
+ .engagement{
+    background-color: rgb(244, 244, 244);
+    width: auto;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.box3{
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 20px;
+    gap: 5px;
+    background-color: white;
+    justify-content: center;
+    align-content:flex-end;
+}
+.mini{
+     /* background-color: rgb(240, 224, 194); */
+    display: grid;
+    grid-template-columns:20px 20px ;
+    font-size: 12px;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+ }
+.icon{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 20px;
+   }
+.letter{
+    /* border: 1px solid black; */
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+
+}
+
+.box4{
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 55px auto;
+    gap: 5px;
+ }
+.emoji{
+    /* border: 1px solid orange; */
+    display: grid;
+    align-items: center;
+    grid-template-columns:15px 15px 15px;
+    justify-content: flex-end;
+  }
+.number{
+    /* border: 1px solid orange; */
+    font-size: 12px ;
+    align-content: center;
+}
+.box5{
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 40px auto;
+    gap: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+ }
+.profile{
+     height: 30px;
+    width: 30px;
+    border-radius:50%;
+    background-color: rgb(174, 173, 173);
+
+}
+.commentText{
+    border: 1px solid rgb(195, 191, 191);
+    background-color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    padding: 3px;
+}
+.icon1{
+    justify-self: flex-end;
+}
+.fa-solid.fa-heart{
+    color: red;
+}
+ .fa-regular.fa-thumbs-up{
+    color: blue;
+}
+.fa-regular.fa-face-surprise{
+    color: rgb(153, 153, 82);
+}
